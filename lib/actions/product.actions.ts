@@ -2,8 +2,7 @@
 
 import { prisma } from '@/db/prisma';
 import { convertToPlainObject } from '../constants/utils';
-import { LATEST_PRODUCTS_LIMIT } from '../constants';
-
+import { LATEST_PRODUCTS_LIMIT } from '../constants/index';
 // Get the latest products
 export async function getLatestProducts() {
 
