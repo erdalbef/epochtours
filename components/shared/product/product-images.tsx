@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 
-import { cn } from '@/lib/constants/utils';
+import { cn } from '@/lib/utils';
 import { useState } from 'react';
 
 const ProductImages = ({ images }: { images: string[] }) => {
